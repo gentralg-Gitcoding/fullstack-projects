@@ -6,3 +6,5 @@ amount,date,category,description
 56765.21,2025-10-29,Education,testing past dates not adding
 34.56,2025-10-29,Gas,testing view current added expenses
 1235.78,2025-12-29,Personal,testing incorrect inputs adding to file
+43573.0,2025-10-30,Personal,testing save
+21354.0,2025-10-30,Personal,testing addding
