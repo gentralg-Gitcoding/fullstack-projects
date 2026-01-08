@@ -1,3 +1,4 @@
 {
-    "output.smartScroll.enabled": false
+    "output.smartScroll.enabled": false,
+    "python.terminal.activateEnvInCurrentTerminal": true
 }
