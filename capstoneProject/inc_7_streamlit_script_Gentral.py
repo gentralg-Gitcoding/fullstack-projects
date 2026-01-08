@@ -17,9 +17,10 @@ segments users using clustering, and predicts revolving credit usage.
 """)
 
 #Cache expensive computations or potential ones
+LOAD_URL = ('https://github.com/gentralg-Gitcoding/fullstack-projects/blob/main/capstoneProject/CC_GENERAL.csv')
 @st.cache_data
 def load_og_data():
-    return pd.read_csv('CC_GENERAL.csv')
+    return pd.read_csv(LOAD_URL)
 
 og_data = load_og_data()
 
