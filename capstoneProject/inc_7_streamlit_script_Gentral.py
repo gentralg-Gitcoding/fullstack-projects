@@ -1,5 +1,4 @@
 from sklearn.impute import KNNImputer
-from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 import streamlit as st
 import pandas as pd
@@ -19,8 +18,8 @@ segments users using clustering, and predicts revolving credit usage.
 #Cache expensive computations or potential ones
 LOAD_URL = ('https://github.com/gentralg-Gitcoding/fullstack-projects/blob/main/capstoneProject/CC_GENERAL.csv')
 @st.cache_data
-def load_og_data(nrows):
-    return pd.read_csv(LOAD_URL, nrows=nrows)
+def load_og_data():
+    return pd.read_csv(LOAD_URL)
 
 og_data = load_og_data()
 
