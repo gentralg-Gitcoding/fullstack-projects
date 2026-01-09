@@ -158,7 +158,7 @@ ax.scatter(X_pca_2d[:, 0], X_pca_2d[:, 1], c=labels)
 ax.set_xlabel("PC 1")
 ax.set_ylabel("PC 2")
 ax.set_title("PCA 2D Projection with KMeans Clusters(k=2)")
-st.pyplot(plt)
+st.pyplot(fig)
 
 
 #Create Kmeans profiles for slider interaction
