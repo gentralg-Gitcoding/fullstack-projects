@@ -416,3 +416,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+#Avoid Data file creations sent to GitHub
+cohortOfSongs/data
+capstoneProject/capstone_10/data
