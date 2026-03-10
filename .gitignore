@@ -419,5 +419,7 @@ FodyWeavers.xsd
 
 
 #Avoid Data file creations sent to GitHub
-cohortOfSongs/data
-capstoneProject/capstone_10/data
+unit_end_projects/cohortOfSongs/data
+capstoneProjects/capstone_10/data
+capstoneProjects/capstone_11/data
+capstoneProjects/capstone_11/models
