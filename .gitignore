@@ -422,3 +422,5 @@ FodyWeavers.xsd
 #Avoid Data file creations sent to GitHub
 *models
 *data
+.venv310
+.venv
