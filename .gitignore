@@ -424,3 +424,4 @@ FodyWeavers.xsd
 *data
 .venv310
 .venv
+.env*
